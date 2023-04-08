@@ -28914,7 +28914,7 @@ if (ENDPOINT) {
 }
 
 const s3 = new S3(s3options);
-const destinationDir = '/';
+const destinationDir = '';
 const paths = klawSync(SOURCE_DIR, {
   nodir: true,
 });
